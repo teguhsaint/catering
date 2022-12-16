@@ -1,0 +1,10 @@
+.bg-primary {
+  background-color: blueviolet !important;
+}
+
+.bg-danger {
+  background-color: red !important;
+}
+.bg-success {
+  background-color: rgb(132, 203, 26) !important;
+}
