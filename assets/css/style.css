@@ -129,19 +129,26 @@ section{
 }
 
 /* testimoni */
-#reviews {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/cover3.jpg);
+#reviews { 
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cover3.jpg);
 }
 
-.review img{
-    width: 73px;
-    height: 73px;
-    object-fit: cover;
+.review img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
 }
 
-.review .quote-icon{
-    font-size: 74px;
-    color: #f58d17;
-    line-height: 1;
+.review .quote-icon {
+font-size: 74px;
+color: #f58d17;
+line-height: 1;
 }
 
+.review .stars {
+  color: #f58d17;
+}
+
+#reviews .carousel-indicators {
+  margin-bottom: -3rem;
+}
