@@ -1,0 +1,147 @@
+body {
+  color: #777;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: #222;
+}
+a {
+  color: #222;
+  text-decoration: none;
+  transition: all, 0.4s;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #f58d17;
+}
+
+img {
+  width: 100%;
+}
+
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+
+.shadow-on-hover{
+    transition: all 0.4s;
+}
+
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Btn */
+
+.btn {
+  border-radius: 0;
+  padding: 14px 38px;
+}
+
+.btn-brand {
+  color: #fff;
+  background-color: #f58d17;
+  font-weight: 500;
+  border-color: #f58d17;
+}
+
+.btn-brand:hover {
+  background-color: #d2750b;
+  border-color: #d2750b;
+  color: #fff;
+}
+
+.bg-cover {
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+/* slide */
+.slide-1 {
+  background: linear-gradient(rgb(0, 0, 0, 0.5), #000), url(../images/cover1.jpg);
+}
+.slide-2 {
+  background: linear-gradient(rgb(0, 0, 0, 0.5), #000), url(../images/cover2.jpg);
+}
+
+.bg-cover {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Heroslider h6::after, #Heroslider h6::before {
+  content: " ";
+  width: 40px;
+  height: 4px;
+  background-color: floralwhite;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgb(0, 0, 0, 0.6);
+  width: 40px;
+  height: 70px;
+  margin: auto;
+}
+
+/* intro */
+
+.intro-text{
+    margin-bottom: 40px;
+   text-align: center;
+}
+
+.intro-text p{
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+   
+}
+
+/* menu */
+
+#menu .nav-pills .nav-link{
+    background-color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #000;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1) ;
+}
+#menu .nav-pills .nav-link.active{
+    background-color: #f58d17;
+    color: whitesmoke;
+}
+
+.menu-item .stars{
+    color: #f58d17;
+}
+
+/* testimoni */
+#reviews {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/cover3.jpg);
+}
+
+.review img{
+    width: 73px;
+    height: 73px;
+    object-fit: cover;
+}
+
+.review .quote-icon{
+    font-size: 74px;
+    color: #f58d17;
+    line-height: 1;
+}
+
