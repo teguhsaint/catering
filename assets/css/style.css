@@ -27,18 +27,17 @@ img {
   width: 100%;
 }
 
-section{
-    padding-top: 120px;
-    padding-bottom: 120px;
-    
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.shadow-on-hover{
-    transition: all 0.4s;
+.shadow-on-hover {
+  transition: all 0.4s;
 }
 
-.shadow-on-hover:hover{
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+.shadow-on-hover:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 }
 
 /* Btn */
@@ -68,10 +67,12 @@ section{
 }
 /* slide */
 .slide-1 {
-  background: linear-gradient(rgb(0, 0, 0, 0.5), #000), url(../images/cover1.jpg);
+  background: linear-gradient(rgb(0, 0, 0, 0.5), #000),
+    url(../images/cover1.jpg);
 }
 .slide-2 {
-  background: linear-gradient(rgb(0, 0, 0, 0.5), #000), url(../images/cover2.jpg);
+  background: linear-gradient(rgb(0, 0, 0, 0.5), #000),
+    url(../images/cover2.jpg);
 }
 
 .bg-cover {
@@ -79,7 +80,8 @@ section{
   background-size: cover;
   background-repeat: no-repeat;
 }
-#Heroslider h6::after, #Heroslider h6::before {
+#Heroslider h6::after,
+#Heroslider h6::before {
   content: " ";
   width: 40px;
   height: 4px;
@@ -98,34 +100,33 @@ section{
 
 /* intro */
 
-.intro-text{
-    margin-bottom: 40px;
-   text-align: center;
+.intro-text {
+  margin-bottom: 40px;
+  text-align: center;
 }
 
-.intro-text p{
-    max-width: 500px;
-    margin: 16px auto 0 auto;
-   
+.intro-text p {
+  max-width: 500px;
+  margin: 16px auto 0 auto;
 }
 
 /* menu */
 
-#menu .nav-pills .nav-link{
-    background-color: #fff;
-    margin-left: 8px;
-    margin-right: 8px;
-    color: #000;
-    border-radius: 100px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1) ;
+#menu .nav-pills .nav-link {
+  background-color: #fff;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #000;
+  border-radius: 100px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 }
-#menu .nav-pills .nav-link.active{
-    background-color: #f58d17;
-    color: whitesmoke;
+#menu .nav-pills .nav-link.active {
+  background-color: #f58d17;
+  color: whitesmoke;
 }
 
-.menu-item .stars{
-    color: #f58d17;
+.menu-item .stars {
+  color: #f58d17;
 }
 
 /* testimoni */
